@@ -82,42 +82,27 @@
 /* Buttons - Read Me, Contact Us */
 
 .readme {
-  position: relative;
-  padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  background-color: #4CAF50 !important;
+  color: #FFFFFF !important;
+  border: 2px solid #4CAF50 !important;
+  transition: all 0.3s ease;
 }
 
 /* .readme:hover{
-  color: white;
-  background-color: #00796b;
+transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
 } */
 
 .contactme {
-  position: relative;
-  padding: 11px 35px;
-  background: none;
-  color: #fff;
-  border: 2px solid #fff;
-  font-weight: 600;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  margin-top: 1.5em;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
+  background-color: transparent !important;
+  color: #4CAF50 !important;
+  border: 2px solid #4CAF50 !important;
+  transition: all 0.3s ease;
 }
 
 .contactme:hover{
-  color: #00796b;
-  background-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
 }
 /* main body */
 
