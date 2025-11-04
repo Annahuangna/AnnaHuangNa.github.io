@@ -82,27 +82,42 @@
 /* Buttons - Read Me, Contact Us */
 
 .readme {
-  background-color: #4CAF50 !important;
-  color: #FFFFFF !important;
-  border: 2px solid #4CAF50 !important;
-  transition: all 0.3s ease;
+  position: relative;
+  padding: 11px 35px;
+  background: #fff;
+  color: #00796b;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
-transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
-} */
+.readme:hover{
+  color: white;
+  background-color: #00796b;
+} 
 
 .contactme {
-  background-color: transparent !important;
-  color: #4CAF50 !important;
-  border: 2px solid #4CAF50 !important;
-  transition: all 0.3s ease;
+  position: relative;
+  padding: 11px 35px;
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 .contactme:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+  color: white;
+  background-color: #00796b;
 }
 /* main body */
 
