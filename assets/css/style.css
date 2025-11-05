@@ -311,7 +311,7 @@ h3 {
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
-  padding: 0 30px;
+  padding:10px 0 12px;
 }
 
 #intro.section .container {
