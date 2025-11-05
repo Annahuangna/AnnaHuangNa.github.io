@@ -194,7 +194,7 @@ nav i {
 
 
 main {
-  background: #F0F4F8 repeat;
+  background: #F0F4F8;
   background-image: none; /* 确保背景图片被移除 */
   padding-left: 190px;
 }
@@ -311,6 +311,7 @@ h3 {
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
+  height: 200px;
 }
 
 #intro.section .container {
