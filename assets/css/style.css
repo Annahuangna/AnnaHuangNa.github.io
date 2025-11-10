@@ -84,8 +84,8 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
+  background:#00796b;
+  color:#fff;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -103,7 +103,7 @@
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: none;
+  background: #00796b;
   color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
