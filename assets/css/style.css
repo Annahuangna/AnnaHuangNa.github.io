@@ -200,7 +200,8 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+   background: #F0F4F8;
+  background-image: none; /* 确保背景图片被移除 */
   padding-left: 190px;
 }
 
