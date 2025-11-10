@@ -84,8 +84,8 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #00796b;
-  color: #fff;
+  background: #fff;
+  color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -95,15 +95,15 @@
   -webkit-border-radius: 5px;
 }
 
-.readme:hover{
+/* .readme:hover{
   color: white;
   background-color: #00796b;
-} 
+} */
 
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: #00796b;
+  background: none;
   color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
@@ -116,8 +116,8 @@
 }
 
 .contactme:hover{
-  color: white;
-  background-color: #00796b;
+  color: #00796b;
+  background-color: white;
 }
 /* main body */
 
@@ -192,10 +192,15 @@ nav i {
   top: 5px;
 }
 
+/* main */
+
+/* main {
+  background: url(../../assets/img/bg.png) repeat;
+  padding-left: 190px;
+} */
 
 main {
-  background: #F0F4F8;
-  background-image: none; /* 确保背景图片被移除 */
+  background: url(../../assets/img/bg.png) repeat;
   padding-left: 190px;
 }
 
@@ -222,6 +227,13 @@ ul.side-nav li {
   padding: 0;
 }
 
+/* ul.side-nav.fixed a {
+  box-sizing: content-box;
+  color: rgb(48, 122, 207);
+  display: block;
+  line-height: 100%;
+  padding: 10px 0 12px;
+} */
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
@@ -288,7 +300,6 @@ h3 {
   margin-top: 0;
   padding: 30px 40px;
   text-transform: uppercase;
-  font-size: 2.2rem;
 }
 
 .section {
@@ -311,7 +322,6 @@ h3 {
 #intro.section {
   background: #a7ffeb repeat;
   position: relative;
-  padding:10px 0 12px;
 }
 
 #intro.section .container {
