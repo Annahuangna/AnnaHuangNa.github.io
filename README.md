@@ -53,20 +53,8 @@ The site features a three-tier navigation approach:
 ### Custom Styling (style.css)
 The custom CSS extends and customizes the Materialize framework with several key design decisions:
 
-#### Profile Image Styling:I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.
-```css
-.profile-pic {
-  border: 6px solid rgba(0, 77, 64, 0.4);
-  border-radius: 50%;
-  margin: -31px;
-}
-
-
-
-
-#### Color Scheme Strategy
-After testing multiple palettes, I selected:
-
+#### Profile Image Styling:
+I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.#### Color Scheme Strategy. After testing multiple palettes, I selected:
 Primary: #008073 (teal) for brand consistency
 
 Secondary: #004d40 (dark teal) for links and accents
@@ -91,6 +79,17 @@ Primary fonts: System font stack for optimal performance
 Font weights: Ranging from 200 (light) for headings to 400/600 for body text
 
 Careful scaling for different screen sizes to maintain readability
+```css
+.profile-pic {
+  border: 6px solid rgba(0, 77, 64, 0.4);
+  border-radius: 50%;
+  margin: -31px;
+}
+
+
+
+
+
 
 ### Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
