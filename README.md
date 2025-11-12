@@ -53,14 +53,16 @@ The site features a three-tier navigation approach:
 ### Custom Styling (style.css)
 The custom CSS extends and customizes the Materialize framework with several key design decisions:
 
-#### Profile Image Styling:
+#### Profile Image Styling:I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.
 ```css
 .profile-pic {
   border: 6px solid rgba(0, 77, 64, 0.4);
   border-radius: 50%;
   margin: -31px;
 }
-I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.
+
+
+
 
 #### Color Scheme Strategy
 After testing multiple palettes, I selected:
