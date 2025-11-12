@@ -12,7 +12,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://annahuangna.github.io/" target="_blank"><img src="examples/preview anna.mov">
+    <a href="https://annahuangna.github.io/" target="_blank"><img src="examples/Anna preview.gif">
   </a>
   </kbd>
 </p>
