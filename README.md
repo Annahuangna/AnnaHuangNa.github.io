@@ -60,9 +60,39 @@ The custom CSS extends and customizes the Materialize framework with several key
   border-radius: 50%;
   margin: -31px;
 }
+I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.
 
-## Tools Used 🛠️
+#### Color Scheme Strategy
+After testing multiple palettes, I selected:
+
+Primary: #008073 (teal) for brand consistency
+
+Secondary: #004d40 (dark teal) for links and accents
+
+Background: #F0F4F8 (light blue-gray) for reduced eye strain
+
+Text: #333333 for optimal readability
+
+This palette conveys professionalism while maintaining visual interest, with sufficient contrast for accessibility.
+### Interactive Elements
+Social media buttons with hover transformations and brand-specific colors
+
+Project cards with reveal functionality for additional details
+
+Smooth transitions and hover effects throughout the interface
+
+Responsive grid system that adapts from mobile to desktop layouts
+
+### Typography Hierarchy
+Primary fonts: System font stack for optimal performance
+
+Font weights: Ranging from 200 (light) for headings to 400/600 for body text
+
+Careful scaling for different screen sizes to maintain readability
+
+### Tools Used 🛠️
 * [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
 * [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
 * [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
+
 
