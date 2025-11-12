@@ -23,6 +23,10 @@
 #### Video Demo:  <https://youtu.be/1skxdLdnwn8?si=-71rRA-YdnxIsjU9>
 #### Description: Anna's Personal Website is a comprehensive digital portfolio that showcases my professional journey as an educator and technology integrator. Built as a responsive single-page application, this website serves as a dynamic platform to present my teaching philosophy, educational projects, technical skills, and professional background. The site combines aesthetic design with functional excellence, demonstrating my commitment to bridging digital innovation with educational practices.
 ## File Structure and Technical Implementation
+### Tools Used 🛠️
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
+* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
 
 ### Core HTML Structure (index.html)
 
@@ -78,22 +82,17 @@ Primary fonts: System font stack for optimal performance
 
 Font weights: Ranging from 200 (light) for headings to 400/600 for body text
 
-Careful scaling for different screen sizes to maintain readability
-```css
-.profile-pic {
-  border: 6px solid rgba(0, 77, 64, 0.4);
-  border-radius: 50%;
-  margin: -31px;
-}
-
-
-
-
-
-
-### Tools Used 🛠️
-* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
-* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
-* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
-
-
+### JavaScript Functionality
+#### Typed.js Integration:The typing animation immediately engages visitors while efficiently communicating my professional identities. I tested several animation libraries but chose Typed.js for its natural typing rhythm and lightweight implementation.
+### Project Showcase Design
+#### The project cards implement a reveal pattern that balances information density with clean design:
+- **Progressive Disclosure: Essential information on the front, detailed specifications on reveal
+- **Visual Consistency: Uniform card dimensions with appropriate image aspect ratios
+- **Action-Oriented: Clear call-to-action buttons for project exploration
+- **Tool Integration: Demonstration videos, live links, and documentation access
+### Performance Optimization: 
+#### Recognizing the importance of loading speed, particularly for educational contexts with varying internet quality, I implemented several optimizations:
+- **CDN Hosting: Materialize and Font Awesome loaded via CDN for faster delivery
+- **Image Optimization: Appropriate sizing and compression for all project images
+- **Minimal Dependencies: Limited external libraries to essential functionality
+- **Efficient Selectors: CSS structured for optimal rendering performance
