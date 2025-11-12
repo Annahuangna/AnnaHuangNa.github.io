@@ -83,7 +83,8 @@ This palette conveys professionalism while maintaining visual interest, with suf
 - Font weights: Ranging from 200 (light) for headings to 400/600 for body text
 
 ### JavaScript Functionality
-#### Typed.js Integration:The typing animation immediately engages visitors while efficiently communicating my professional identities. I tested several animation libraries but chose Typed.js for its natural typing rhythm and lightweight implementation.
+#### Typed.js Integration:
+The typing animation immediately engages visitors while efficiently communicating my professional identities. I tested several animation libraries but chose Typed.js for its natural typing rhythm and lightweight implementation.
 ### Project Showcase Design
 #### The project cards implement a reveal pattern that balances information density with clean design:
 - Progressive Disclosure: Essential information on the front, detailed specifications on reveal
