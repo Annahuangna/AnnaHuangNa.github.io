@@ -61,38 +61,38 @@ The custom CSS extends and customizes the Materialize framework with several key
 I chose a teal-tinged border to complement the overall color scheme while creating visual separation from the navigation background. The negative margin ensures proper alignment within the fixed navigation panel.#### Color Scheme Strategy. After testing multiple palettes, I selected:
 Primary: #008073 (teal) for brand consistency
 
-Secondary: #004d40 (dark teal) for links and accents
+- Secondary: #004d40 (dark teal) for links and accents
 
-Background: #F0F4F8 (light blue-gray) for reduced eye strain
+- Background: #F0F4F8 (light blue-gray) for reduced eye strain
 
-Text: #333333 for optimal readability
+- Text: #333333 for optimal readability
 
 This palette conveys professionalism while maintaining visual interest, with sufficient contrast for accessibility.
 ### Interactive Elements
-Social media buttons with hover transformations and brand-specific colors
+- Social media buttons with hover transformations and brand-specific colors
 
-Project cards with reveal functionality for additional details
+- Project cards with reveal functionality for additional details
 
-Smooth transitions and hover effects throughout the interface
+- Smooth transitions and hover effects throughout the interface
 
-Responsive grid system that adapts from mobile to desktop layouts
+- Responsive grid system that adapts from mobile to desktop layouts
 
 ### Typography Hierarchy
-Primary fonts: System font stack for optimal performance
+- Primary fonts: System font stack for optimal performance
 
-Font weights: Ranging from 200 (light) for headings to 400/600 for body text
+- Font weights: Ranging from 200 (light) for headings to 400/600 for body text
 
 ### JavaScript Functionality
 #### Typed.js Integration:The typing animation immediately engages visitors while efficiently communicating my professional identities. I tested several animation libraries but chose Typed.js for its natural typing rhythm and lightweight implementation.
 ### Project Showcase Design
 #### The project cards implement a reveal pattern that balances information density with clean design:
-- **Progressive Disclosure: Essential information on the front, detailed specifications on reveal
-- **Visual Consistency: Uniform card dimensions with appropriate image aspect ratios
-- **Action-Oriented: Clear call-to-action buttons for project exploration
-- **Tool Integration: Demonstration videos, live links, and documentation access
+- Progressive Disclosure: Essential information on the front, detailed specifications on reveal
+- Visual Consistency: Uniform card dimensions with appropriate image aspect ratios
+- Action-Oriented: Clear call-to-action buttons for project exploration
+- Tool Integration: Demonstration videos, live links, and documentation access
 ### Performance Optimization: 
 #### Recognizing the importance of loading speed, particularly for educational contexts with varying internet quality, I implemented several optimizations:
-- **CDN Hosting: Materialize and Font Awesome loaded via CDN for faster delivery
-- **Image Optimization: Appropriate sizing and compression for all project images
-- **Minimal Dependencies: Limited external libraries to essential functionality
-- **Efficient Selectors: CSS structured for optimal rendering performance
+- CDN Hosting: Materialize and Font Awesome loaded via CDN for faster delivery
+- Image Optimization: Appropriate sizing and compression for all project images
+- Minimal Dependencies: Limited external libraries to essential functionality
+- Efficient Selectors: CSS structured for optimal rendering performance
